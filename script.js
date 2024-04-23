@@ -95,6 +95,11 @@ function selectAnswer(e){
 
 function handleNextButton(){
     currentQuestionIndex++;
+    if(currentQuestionIndex < questuion.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
 }
 
 nextButton.addEventListener("click", () => {
