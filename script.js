@@ -115,7 +115,7 @@ nextButton.addEventListener("click", () => {
     }else{
         startQuiz();
     }
-})
+});
 
 
 startQuiz();
