@@ -35,4 +35,4 @@ const questions = [
             {text: "One Punch Man", correct: false},
         ]
     }
-]
+];
