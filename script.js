@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "What is the largest animal in the world?",
+        question: "Which is a skill I DO NOT have?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue Whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "Teaching", correct: false},
+            {text: "Accountancy", correct: true},
+            {text: "Software Engineering", correct: false},
+            {text: "Personal Training", correct: false},
         ]
     },
     {
