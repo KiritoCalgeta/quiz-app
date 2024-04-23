@@ -93,6 +93,10 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+function handleNextButton(){
+    currentQuestionIndex++;
+}
+
 nextButton.addEventListener("click", () => {
     if(currentQuestionIndex < questions.length){
         handleNextButton();
