@@ -80,6 +80,7 @@ function selectAnswer(e){
     const isCorrect = selectBtn.dataset.correct === "true";
     if(isCorrect){
         selectBtn.classList.add("correct")
+        score++;
     }else{
         selectBtn.classList.add("incorrect");
     }
